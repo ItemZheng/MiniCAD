@@ -144,7 +144,7 @@ public class LogicManager{
 			if (java.awt.Desktop.isDesktopSupported()) {
 				try {
 					// a uri
-					java.net.URI uri = java.net.URI.create("http://www.baidu.com");
+					java.net.URI uri = java.net.URI.create("https://github.com/ItemZheng/MiniCAD");
 					// get desktop
 					java.awt.Desktop dp = java.awt.Desktop.getDesktop();
 					// judge
