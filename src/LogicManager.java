@@ -170,7 +170,7 @@ public class LogicManager{
 		
 		// add icon
 		// Mouse
-		URL mouse_pic = this.getClass().getResource("pic/mouse.png");
+		URL mouse_pic = this.getClass().getResource("/res/mouse.png");
 		Icon mouse_icon = new ImageIcon(mouse_pic);
 		JButton mouse_button = new JButton();
 		mouse_button.setToolTipText("Rectangle");
@@ -179,7 +179,7 @@ public class LogicManager{
 		tool_buttons.add(mouse_button);
 		
 		// Line
-		URL line_pic = this.getClass().getResource("pic/line.png");
+		URL line_pic = this.getClass().getResource("/res/line.png");
 		Icon line_icon = new ImageIcon(line_pic);
 		JButton line_button = new JButton();
 		line_button.setToolTipText("Line");
@@ -188,7 +188,7 @@ public class LogicManager{
 		tool_buttons.add(line_button);
 		
 		// Rectangle
-		URL rec_pic = this.getClass().getResource("pic/Rctangle.png");
+		URL rec_pic = this.getClass().getResource("/res/Rctangle.png");
 		Icon rec_icon = new ImageIcon(rec_pic);
 		JButton rec_button = new JButton();
 		rec_button.setToolTipText("Rectangle");
@@ -197,7 +197,7 @@ public class LogicManager{
 		tool_buttons.add(rec_button);
 		
 		// Ellipse
-		URL elli = this.getClass().getResource("pic/Ellipse.png");
+		URL elli = this.getClass().getResource("/res/Ellipse.png");
 		Icon elli_icon = new ImageIcon(elli);
 		JButton elli_button = new JButton();
 		elli_button.setToolTipText("Ellipse");
@@ -206,7 +206,7 @@ public class LogicManager{
 		tool_buttons.add(elli_button);
 		
 		// filled rectangle
-		URL fill_rec = this.getClass().getResource("pic/Filled_Rctangle.png");
+		URL fill_rec = this.getClass().getResource("/res/Filled_Rctangle.png");
 		Icon fill_rec_icon = new ImageIcon(fill_rec);
 		JButton fill_rec_button = new JButton();
 		fill_rec_button.setToolTipText("Filled Rectangle");
@@ -215,7 +215,7 @@ public class LogicManager{
 		tool_buttons.add(fill_rec_button);
 		
 		// filled ellipse
-		URL fill_elli = this.getClass().getResource("pic/Filled_Ellipse.png");
+		URL fill_elli = this.getClass().getResource("/res/Filled_Ellipse.png");
 		Icon fill_elli_icon = new ImageIcon(fill_elli);
 		JButton fill_elli_button = new JButton();
 		fill_elli_button.setToolTipText("Filled Ellipse");
@@ -224,7 +224,7 @@ public class LogicManager{
 		tool_buttons.add(fill_elli_button);
 		
 		//multiple points lines
-		URL mul_line = this.getClass().getResource("pic/Multi_Line.png");
+		URL mul_line = this.getClass().getResource("/res/Multi_Line.png");
 		Icon mul_line_icon = new ImageIcon(mul_line);
 		JButton mul_line_button = new JButton();
 		mul_line_button.setToolTipText("Multiple points line");
@@ -233,7 +233,7 @@ public class LogicManager{
 		tool_buttons.add(mul_line_button);
 		
 		//multiple lines shape
-		URL mul_shape = this.getClass().getResource("pic/Shapes.png");
+		URL mul_shape = this.getClass().getResource("/res/Shapes.png");
 		Icon mul_shape_icon = new ImageIcon(mul_shape);
 		JButton mul_shape_button = new JButton();
 		mul_shape_button.setToolTipText("Multiple lines shape");
@@ -242,7 +242,7 @@ public class LogicManager{
 		tool_buttons.add(mul_shape_button);
 		
 		//Text
-		URL text = this.getClass().getResource("pic/Text.png");
+		URL text = this.getClass().getResource("/res/Text.png");
 		Icon text_icon = new ImageIcon(text);
 		JButton text_button = new JButton();
 		text_button.setToolTipText("Text");
